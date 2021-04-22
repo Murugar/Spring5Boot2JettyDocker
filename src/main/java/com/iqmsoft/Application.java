@@ -25,7 +25,7 @@ class MyController {
 
     @RequestMapping(method = RequestMethod.GET, path = "hello")
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello From Docker Spring Boot!");
+        return ResponseEntity.ok("Hello From Docker Jetty 9.4.38 Spring Boot!");
     }
 
 }
